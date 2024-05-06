@@ -1,14 +1,20 @@
-# gebetafoods
+# Pinia Tasks
 
-This template should help get you started developing with Vue 3 in Vite.
+Pinia Tasks is a project based on Pinia state management, json-server and Vue.js.
+
+## Project Overview
+![Screenshot](src/assets/img/Screenshot.png)
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+For optimal development experience, we recommend using:
 
-## Customize configuration
+- [VSCode](https://code.visualstudio.com/)
+- [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) extension for Vue 3 (Disable Vetur if enabled)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Customize Configuration
+
+For custom configuration options, refer to the [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
