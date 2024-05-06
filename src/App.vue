@@ -18,6 +18,7 @@
 <h1 class="text-sm text-gray-600 mt-5">You have [{{TaskStore.notComplited  }}] Tasks left to do</h1>
 <div v-if="TaskStore.isLodding" class=" text-sm text-gray-800 font-bold">Loding...</div>
 <div class="text-xs text-red-500" v-if="TaskStore.error">{{ TaskStore.error }}</div>
+<div v-if="!TaskStore.isLodding&&TaskStore.tasks.length === 0" class="text-sm text-gray-800 font-bold">No tasks yet</div>
 <Tasks :filter="filter" />
 </div>
 </template>
@@ -28,7 +29,7 @@
 import {useTaskStore} from './stores/TaskStore.js';
 import Tasks from './components/Tasks.vue';
 import TaskForm from './components/TaskForm.vue';
-import { onBeforeMount, onMounted, ref } from 'vue';
+import {  onMounted, ref } from 'vue';
 export default {
   components: {
     Tasks,TaskForm

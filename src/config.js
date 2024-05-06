@@ -1,3 +1,3 @@
 export  const config = {
-    taskUrl: 'http://localhost:3000/Tasks',
+    taskUrl: 'https://json-server-psi-eight.vercel.app/Tasks' //'http://localhost:3000/Tasks',
 }
